@@ -7,6 +7,10 @@
 
   {{ partial "seo.html" . }}
 
+  {{ with site.Data.site.branding.favicon }}
+    <link rel="icon" href="{{ . | relURL }}">
+  {{ end }}
+
   {{ partial "design-tokens.html" . }}
 
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
