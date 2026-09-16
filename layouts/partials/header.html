@@ -2,11 +2,11 @@
   <div class="container header-inner">
 
     <a class="site-name" href="{{ "/" | relURL }}">
-      {{ site.Data.site.name }}
+      {{ hugo.Data.site.name }}
     </a>
 
     <nav class="desktop-nav" aria-label="Primary navigation">
-      {{ range site.Data.navigation.main }}
+      {{ range hugo.Data.navigation.main }}
 
         {{ if eq .key "more" }}
 
@@ -16,7 +16,7 @@
             </button>
 
             <div class="nav-more-menu">
-              {{ range site.Data.navigation.more }}
+              {{ range hugo.Data.navigation.more }}
                 <a href="{{ .url | relURL }}">
                   {{ .name }}
                 </a>

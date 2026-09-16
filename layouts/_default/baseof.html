@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.Data.site.language | default "en" }}">
+<html lang="{{ hugo.Data.site.language | default "en" }}">
 <head>
 
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
 
   {{ partial "seo.html" . }}
 
-  {{ with site.Data.site.branding.favicon }}
+  {{ with hugo.Data.site.branding.favicon }}
     <link rel="icon" href="{{ . | relURL }}">
   {{ end }}
 

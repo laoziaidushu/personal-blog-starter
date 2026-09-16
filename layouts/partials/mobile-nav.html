@@ -1,6 +1,6 @@
 <nav class="mobile-nav" aria-label="Mobile navigation">
 
-  {{ range site.Data.navigation.main }}
+  {{ range hugo.Data.navigation.main }}
 
     {{ if eq .key "more" }}
 
@@ -30,7 +30,7 @@
 <div class="mobile-more-panel" data-mobile-more-panel hidden>
   <div class="mobile-more-content">
 
-    {{ range site.Data.navigation.more }}
+    {{ range hugo.Data.navigation.more }}
       <a href="{{ .url | relURL }}">
         {{ .name }}
       </a>

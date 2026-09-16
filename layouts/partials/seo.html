@@ -1,5 +1,5 @@
-{{- $siteName := site.Data.site.name -}}
-{{- $siteDescription := site.Data.site.description -}}
+{{- $siteName := hugo.Data.site.name -}}
+{{- $siteDescription := hugo.Data.site.description -}}
 
 {{- $title := $siteName -}}
 {{- if not .IsHome -}}
