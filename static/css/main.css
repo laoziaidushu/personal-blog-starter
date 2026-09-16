@@ -275,3 +275,19 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.cover-image {
+  margin: 0 0 24px;
+}
+
+.cover-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post-card .cover-image img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
