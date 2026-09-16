@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Personal Blog Starter</title>
-		<link>//localhost:45433/</link>
-		<description>Recent content on Personal Blog Starter</description>
+		<title>Blog on Personal Blog Starter</title>
+		<link>//localhost:45433/blog/</link>
+		<description>Recent content in Blog on Personal Blog Starter</description>
 		<generator>Hugo</generator>
 		<language>en</language>
 		
@@ -12,7 +12,7 @@
 		
 			<lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:45433/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="//localhost:45433/blog/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Hello World</title>
 				<link>//localhost:45433/blog/hello-world/</link>
