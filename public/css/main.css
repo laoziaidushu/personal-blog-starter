@@ -3,22 +3,22 @@
 }
 
 html {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-body);
 }
 
 body {
   margin: 0;
-  color: #1c1c1c;
-  background: #ffffff;
+  color: var(--color-text);
+  background: var(--color-surface);
 }
 
 .container {
-  width: min(1120px, calc(100% - 32px));
+  width: min(var(--layout-max-width), calc(100% - 32px));
   margin: 0 auto;
 }
 
 .site-header {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--color-border);
   padding: 20px 0;
 }
 
@@ -48,7 +48,7 @@ body {
 .site-footer {
   margin-top: 80px;
   padding: 32px 0;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid var(--color-border);
   font-size: 14px;
 }
 
@@ -86,8 +86,8 @@ body {
   right: 0;
   min-width: 160px;
   padding: 8px;
-  background: #ffffff;
-  border: 1px solid #e5e5e5;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
 }
 
 .nav-more:hover .nav-more-menu,
@@ -125,8 +125,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
 
     min-height: 64px;
-    background: #ffffff;
-    border-top: 1px solid #e5e5e5;
+    background: var(--color-surface);
+    border-top: 1px solid var(--color-border);
   }
 
   .mobile-nav-item {
@@ -152,8 +152,8 @@ body {
     width: min(240px, calc(100% - 32px));
     padding: 8px;
 
-    background: #ffffff;
-    border: 1px solid #e5e5e5;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
   }
 
   .mobile-more-panel:not([hidden]) {
@@ -199,7 +199,7 @@ body {
 
 .post-card {
   padding-bottom: 24px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .post-card h2 {
@@ -219,11 +219,11 @@ body {
 .post-card time,
 .article-header time {
   font-size: 14px;
-  color: #666666;
+  color: var(--color-muted);
 }
 
 .article-container {
-  max-width: 760px;
+  max-width: var(--layout-content-width);
 }
 
 .article-header {
@@ -245,7 +245,7 @@ body {
 }
 
 .standard-page-container {
-  max-width: 760px;
+  max-width: var(--layout-content-width);
 }
 
 .standard-page-header {
