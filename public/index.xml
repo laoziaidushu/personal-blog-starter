@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Personal Blog Starter</title>
-		<link>//localhost:1313/</link>
+		<link>/</link>
 		<description>Recent content on Personal Blog Starter</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,40 +12,40 @@
 		
 			<lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Hello World</title>
-				<link>//localhost:1313/blog/hello-world/</link>
+				<link>/blog/hello-world/</link>
 				<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/blog/hello-world/</guid>
+				<guid>/blog/hello-world/</guid>
 				<description>&lt;p&gt;This is a sample blog post.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-exists&#34;&gt;Why this exists&lt;/h2&gt;&#xA;&lt;p&gt;This article is used to test the reusable blog structure.&lt;/p&gt;&#xA;&lt;h2 id=&#34;second-heading&#34;&gt;Second heading&lt;/h2&gt;&#xA;&lt;p&gt;If you can see this page correctly, the blog content system is working.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>About</title>
-				<link>//localhost:1313/about/</link>
+				<link>/about/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/about/</guid>
+				<guid>/about/</guid>
 				<description>&lt;p&gt;Write your About page here.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Contact</title>
-				<link>//localhost:1313/contact/</link>
+				<link>/contact/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/contact/</guid>
+				<guid>/contact/</guid>
 				<description>&lt;p&gt;Add your contact information here.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Privacy Policy</title>
-				<link>//localhost:1313/privacy/</link>
+				<link>/privacy/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/privacy/</guid>
+				<guid>/privacy/</guid>
 				<description>&lt;p&gt;Replace this page with the website&amp;rsquo;s privacy policy before launch.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Terms of Use</title>
-				<link>//localhost:1313/terms/</link>
+				<link>/terms/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/terms/</guid>
+				<guid>/terms/</guid>
 				<description>&lt;p&gt;Replace this page with the website&amp;rsquo;s terms of use before launch.&lt;/p&gt;</description>
 			</item>
 	</channel>
