@@ -239,3 +239,39 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.standard-page {
+  padding: 64px 0;
+}
+
+.standard-page-container {
+  max-width: 760px;
+}
+
+.standard-page-header {
+  margin-bottom: 40px;
+}
+
+.standard-page-header h1 {
+  margin-top: 0;
+}
+
+.standard-page-header p {
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+.standard-page-content {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.standard-page-content h2,
+.standard-page-content h3 {
+  margin-top: 2em;
+}
+
+.standard-page-content img {
+  max-width: 100%;
+  height: auto;
+}
